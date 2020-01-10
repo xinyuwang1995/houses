@@ -1,0 +1,480 @@
+2020-01-11 01:00:25.905 [Thread-59] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] [,,] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92: startup date [Sat Jan 11 00:26:18 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3
+2020-01-11 01:00:25.906 [Thread-71] INFO  [com.netflix.loadbalancer.PollingServerListUpdater:53] [,,] - Shutting down the Executor Pool for PollingServerListUpdater
+2020-01-11 01:00:25.909 [Thread-59] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:128] [,,] - Unregistering application comment with eureka with status DOWN
+2020-01-11 01:00:25.909 [Thread-59] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,,] - Saw local status change event StatusChangeEvent [timestamp=1578675625909, current=DOWN, previous=UP]
+2020-01-11 01:00:25.909 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:812] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085: registering service...
+2020-01-11 01:00:25.910 [Thread-59] INFO  [com.netflix.discovery.DiscoveryClient:869] [,,] - Shutting down DiscoveryClient ...
+2020-01-11 01:02:40.000 [main] INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext:583] [,,] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@545b995e: startup date [Sat Jan 11 01:02:39 CST 2020]; root of context hierarchy
+2020-01-11 01:02:40.056 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] [,,] - HV000001: Hibernate Validator 5.2.5.Final
+2020-01-11 01:02:40.228 [main] INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] [,,] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-11 01:02:40.269 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fe6940c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:41.271 [main] INFO  [com.mooc.house.comment.CommentSrvApplication:662] [,,] - No active profile set, falling back to default profiles: default
+2020-01-11 01:02:41.284 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] [,,] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa0dbf4: startup date [Sat Jan 11 01:02:41 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@545b995e
+2020-01-11 01:02:42.793 [main] INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] [,,] - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2020-01-11 01:02:42.847 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate:170] [,,] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-11 01:02:43.221 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:263] [,,] - BeanFactory id=484a00da-a3b5-372b-8bd8-055ea674db31
+2020-01-11 01:02:43.243 [main] INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] [,,] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-11 01:02:43.330 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$1f90db89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:43.431 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e24f3dc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:43.655 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$147be407] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:43.712 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fe6940c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:43.765 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$ca32e9e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:02:44.640 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] [,,] - Tomcat initialized with port(s): 8085 (http)
+2020-01-11 01:02:44.651 [main] INFO  [org.apache.catalina.core.StandardService:179] [,,] - Starting service [Tomcat]
+2020-01-11 01:02:44.652 [main] INFO  [org.apache.catalina.core.StandardEngine:179] [,,] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-01-11 01:02:44.774 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] [,,] - Initializing Spring embedded WebApplicationContext
+2020-01-11 01:02:44.774 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] [,,] - Root WebApplicationContext: initialization completed in 3490 ms
+2020-01-11 01:02:46.431 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'metricsFilter' to: [/*]
+2020-01-11 01:02:46.431 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'traceFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'authorizedLogbookFilter' to: [/*]
+2020-01-11 01:02:46.432 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-01-11 01:02:46.433 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [,,] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-01-11 01:02:46.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [,,] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-01-11 01:02:48.437 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:106] [,,] - {dataSource-1} inited
+2020-01-11 01:02:52.772 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/blog/list]}" onto public com.mooc.house.comment.common.RestResponse<com.mooc.house.comment.model.ListResponse<com.mooc.house.comment.model.Blog>> com.mooc.house.comment.controller.BlogController.list(com.mooc.house.comment.model.BlogQueryReq)
+2020-01-11 01:02:52.773 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/blog/one]}" onto public com.mooc.house.comment.common.RestResponse<com.mooc.house.comment.model.Blog> com.mooc.house.comment.controller.BlogController.one(java.lang.Integer)
+2020-01-11 01:02:52.774 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/comment/list]}" onto public com.mooc.house.comment.common.RestResponse<java.util.List<com.mooc.house.comment.model.Comment>> com.mooc.house.comment.controller.CommentController.list(com.mooc.house.comment.model.CommentReq)
+2020-01-11 01:02:52.774 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/comment/add]}" onto public com.mooc.house.comment.common.RestResponse<java.lang.Object> com.mooc.house.comment.controller.CommentController.leaveComment(com.mooc.house.comment.model.CommentReq)
+2020-01-11 01:02:52.775 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2020-01-11 01:02:52.778 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-01-11 01:02:52.779 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-01-11 01:02:52.780 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-01-11 01:02:52.783 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-11 01:02:52.783 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-11 01:02:54.277 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-01-11 01:02:54.278 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/actuator || /actuator.json],produces=[application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2020-01-11 01:02:54.278 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:02:54.280 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.281 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.282 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.282 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.284 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.285 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.286 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-01-11 01:02:54.287 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.289 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.291 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:02:54.292 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.292 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-01-11 01:02:54.293 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.294 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-01-11 01:02:54.294 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:02:54.295 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:02:54.295 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2020-01-11 01:02:54.296 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-01-11 01:02:54.296 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-01-11 01:02:54.889 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] [,,] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa0dbf4: startup date [Sat Jan 11 01:02:41 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@545b995e
+2020-01-11 01:02:54.905 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:566] [,,] - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-01-11 01:02:55.121 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:02:55.121 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:02:55.161 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] [,,] - Detected @ExceptionHandler methods in globalExceptionHandler
+2020-01-11 01:02:55.161 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:279] [,,] - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-01-11 01:02:55.233 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:02:56.508 [main] INFO  [org.springframework.ui.freemarker.SpringTemplateLoader:61] [,,] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa0dbf4: startup date [Sat Jan 11 01:02:41 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@545b995e] and template loader path [classpath:/templates/]
+2020-01-11 01:02:56.509 [main] INFO  [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer:127] [,,] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-01-11 01:02:57.502 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 01:02:57.725 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 01:02:57.726 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-11 01:02:57.732 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 01:02:57.732 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-11 01:02:57.981 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:165] [,,] - Initializing ExecutorService 
+2020-01-11 01:02:58.184 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] [,,] - Registering beans for JMX exposure on startup
+2020-01-11 01:02:58.186 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-01-11 01:02:58.187 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-01-11 01:02:58.199 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-01-11 01:02:58.202 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-01-11 01:02:58.203 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-01-11 01:02:58.203 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-01-11 01:02:58.205 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-01-11 01:02:58.208 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-01-11 01:02:58.223 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-01-11 01:02:58.236 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-01-11 01:02:58.247 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5aa0dbf4,type=ConfigurationPropertiesRebinder]
+2020-01-11 01:02:58.254 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [,,] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2020-01-11 01:02:58.256 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-01-11 01:02:58.259 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [,,] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-01-11 01:02:58.259 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:431] [,,] - Registering beans for JMX exposure on startup
+2020-01-11 01:02:59.000 [main] INFO  [org.springframework.context.support.DefaultLifecycleProcessor:343] [,,] - Starting beans in phase 0
+2020-01-11 01:02:59.008 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:70] [,,] - Setting initial instance status as: STARTING
+2020-01-11 01:02:59.098 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,,] - Using JSON encoding codec LegacyJacksonJson
+2020-01-11 01:02:59.099 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,,] - Using JSON decoding codec LegacyJacksonJson
+2020-01-11 01:02:59.190 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,,] - Using XML encoding codec XStreamXml
+2020-01-11 01:02:59.191 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,,] - Using XML decoding codec XStreamXml
+2020-01-11 01:02:59.389 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:02:59.409 [main] INFO  [com.netflix.discovery.DiscoveryClient:937] [,,] - Disable delta property : false
+2020-01-11 01:02:59.409 [main] INFO  [com.netflix.discovery.DiscoveryClient:938] [,,] - Single vip registry refresh property : null
+2020-01-11 01:02:59.409 [main] INFO  [com.netflix.discovery.DiscoveryClient:939] [,,] - Force full registry fetch : false
+2020-01-11 01:02:59.410 [main] INFO  [com.netflix.discovery.DiscoveryClient:940] [,,] - Application is null : false
+2020-01-11 01:02:59.410 [main] INFO  [com.netflix.discovery.DiscoveryClient:941] [,,] - Registered Applications size is zero : true
+2020-01-11 01:02:59.410 [main] INFO  [com.netflix.discovery.DiscoveryClient:943] [,,] - Application version is -1: true
+2020-01-11 01:02:59.410 [main] INFO  [com.netflix.discovery.DiscoveryClient:1026] [,,] - Getting all instance registry info from the eureka server
+2020-01-11 01:02:59.560 [main] INFO  [com.netflix.discovery.DiscoveryClient:1035] [,,] - The response status is 200
+2020-01-11 01:02:59.562 [main] INFO  [com.netflix.discovery.DiscoveryClient:1261] [,,] - Starting heartbeat executor: renew interval is: 5
+2020-01-11 01:02:59.565 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator:59] [,,] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-01-11 01:02:59.568 [main] INFO  [com.netflix.discovery.DiscoveryClient:461] [,,] - Discovery Client initialized at timestamp 1578675779567 with initial instances count: 2
+2020-01-11 01:02:59.738 [main] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:100] [,,] - Registering application comment with eureka with status UP
+2020-01-11 01:02:59.739 [main] INFO  [com.netflix.discovery.DiscoveryClient:1296] [,,] - Saw local status change event StatusChangeEvent [timestamp=1578675779738, current=UP, previous=STARTING]
+2020-01-11 01:02:59.740 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:812] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085: registering service...
+2020-01-11 01:02:59.749 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-01-11 01:02:59.758 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-01-11 01:02:59.763 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-01-11 01:02:59.766 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-01-11 01:02:59.771 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-01-11 01:02:59.774 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:821] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085 - registration status: 204
+2020-01-11 01:02:59.775 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-01-11 01:02:59.779 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-01-11 01:02:59.783 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-01-11 01:02:59.786 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-01-11 01:02:59.790 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-01-11 01:02:59.794 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-01-11 01:02:59.797 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-01-11 01:03:00.581 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] [,,] - Initializing ProtocolHandler ["http-nio-8085"]
+2020-01-11 01:03:00.590 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] [,,] - Starting ProtocolHandler ["http-nio-8085"]
+2020-01-11 01:03:00.596 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] [,,] - Using a shared selector for servlet write/read
+2020-01-11 01:03:00.614 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] [,,] - Tomcat started on port(s): 8085 (http)
+2020-01-11 01:03:00.615 [main] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:168] [,,] - Updating port to 8085
+2020-01-11 01:03:00.623 [main] INFO  [com.mooc.house.comment.CommentSrvApplication:57] [,,] - Started CommentSrvApplication in 21.366 seconds (JVM running for 23.206)
+2020-01-11 01:03:22.178 [Thread-51] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] [,,] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa0dbf4: startup date [Sat Jan 11 01:02:41 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@545b995e
+2020-01-11 01:03:22.181 [Thread-51] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:128] [,,] - Unregistering application comment with eureka with status DOWN
+2020-01-11 01:03:22.182 [Thread-51] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,,] - Saw local status change event StatusChangeEvent [timestamp=1578675802181, current=DOWN, previous=UP]
+2020-01-11 01:03:22.182 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:812] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085: registering service...
+2020-01-11 01:03:22.182 [Thread-51] INFO  [com.netflix.discovery.DiscoveryClient:869] [,,] - Shutting down DiscoveryClient ...
+2020-01-11 01:03:29.687 [main] INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext:583] [,,] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3: startup date [Sat Jan 11 01:03:29 CST 2020]; root of context hierarchy
+2020-01-11 01:03:29.756 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] [,,] - HV000001: Hibernate Validator 5.2.5.Final
+2020-01-11 01:03:29.921 [main] INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] [,,] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-11 01:03:29.962 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82711155] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:30.360 [main] INFO  [com.mooc.house.comment.CommentSrvApplication:662] [,,] - No active profile set, falling back to default profiles: default
+2020-01-11 01:03:30.373 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] [,,] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92: startup date [Sat Jan 11 01:03:30 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3
+2020-01-11 01:03:31.891 [main] INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] [,,] - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2020-01-11 01:03:31.945 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate:170] [,,] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-11 01:03:32.315 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:263] [,,] - BeanFactory id=484a00da-a3b5-372b-8bd8-055ea674db31
+2020-01-11 01:03:32.347 [main] INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] [,,] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-11 01:03:32.456 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$a398ac1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:32.561 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66570e58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:32.769 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$9883b499] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:32.818 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82711155] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:32.848 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] [,,] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$4e3aba77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-11 01:03:33.718 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] [,,] - Tomcat initialized with port(s): 8085 (http)
+2020-01-11 01:03:33.731 [main] INFO  [org.apache.catalina.core.StandardService:179] [,,] - Starting service [Tomcat]
+2020-01-11 01:03:33.733 [main] INFO  [org.apache.catalina.core.StandardEngine:179] [,,] - Starting Servlet Engine: Apache Tomcat/8.5.15
+2020-01-11 01:03:33.859 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] [,,] - Initializing Spring embedded WebApplicationContext
+2020-01-11 01:03:33.859 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] [,,] - Root WebApplicationContext: initialization completed in 3486 ms
+2020-01-11 01:03:35.418 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'metricsFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'traceFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'requestContextFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2020-01-11 01:03:35.419 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'authorizedLogbookFilter' to: [/*]
+2020-01-11 01:03:35.420 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [,,] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-01-11 01:03:35.420 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [,,] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-01-11 01:03:35.421 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [,,] - Mapping servlet: 'dispatcherServlet' to [/]
+2020-01-11 01:03:37.417 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:106] [,,] - {dataSource-1} inited
+2020-01-11 01:03:41.461 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/blog/one]}" onto public com.mooc.house.comment.common.RestResponse<com.mooc.house.comment.model.Blog> com.mooc.house.comment.controller.BlogController.one(java.lang.Integer)
+2020-01-11 01:03:41.462 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/blog/list]}" onto public com.mooc.house.comment.common.RestResponse<com.mooc.house.comment.model.ListResponse<com.mooc.house.comment.model.Blog>> com.mooc.house.comment.controller.BlogController.list(com.mooc.house.comment.model.BlogQueryReq)
+2020-01-11 01:03:41.463 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/comment/add]}" onto public com.mooc.house.comment.common.RestResponse<java.lang.Object> com.mooc.house.comment.controller.CommentController.leaveComment(com.mooc.house.comment.model.CommentReq)
+2020-01-11 01:03:41.464 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/comment/list]}" onto public com.mooc.house.comment.common.RestResponse<java.util.List<com.mooc.house.comment.model.Comment>> com.mooc.house.comment.controller.CommentController.list(com.mooc.house.comment.model.CommentReq)
+2020-01-11 01:03:41.465 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2020-01-11 01:03:41.467 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-01-11 01:03:41.468 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-01-11 01:03:41.469 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-01-11 01:03:41.472 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-11 01:03:41.473 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [,,] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-11 01:03:42.946 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:03:42.947 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-01-11 01:03:42.949 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.950 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.951 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.951 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2020-01-11 01:03:42.953 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-01-11 01:03:42.954 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-01-11 01:03:42.954 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.957 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-01-11 01:03:42.957 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.958 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-01-11 01:03:42.958 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.959 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:03:42.959 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-01-11 01:03:42.962 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.963 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.963 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/actuator || /actuator.json],produces=[application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2020-01-11 01:03:42.964 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.965 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.965 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-01-11 01:03:42.966 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] [,,] - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-01-11 01:03:43.562 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] [,,] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92: startup date [Sat Jan 11 01:03:30 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3
+2020-01-11 01:03:43.577 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:566] [,,] - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-01-11 01:03:43.778 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:03:43.778 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:03:43.814 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] [,,] - Detected @ExceptionHandler methods in globalExceptionHandler
+2020-01-11 01:03:43.815 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:279] [,,] - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-01-11 01:03:43.883 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [,,] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-11 01:03:45.155 [main] INFO  [org.springframework.ui.freemarker.SpringTemplateLoader:61] [,,] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92: startup date [Sat Jan 11 01:03:30 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3] and template loader path [classpath:/templates/]
+2020-01-11 01:03:45.156 [main] INFO  [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer:127] [,,] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-01-11 01:03:46.110 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 01:03:46.226 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 01:03:46.226 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-11 01:03:46.232 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 01:03:46.232 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-11 01:03:46.487 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:165] [,,] - Initializing ExecutorService 
+2020-01-11 01:03:46.715 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] [,,] - Registering beans for JMX exposure on startup
+2020-01-11 01:03:46.716 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-01-11 01:03:46.716 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-01-11 01:03:46.727 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-01-11 01:03:46.731 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-01-11 01:03:46.731 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-01-11 01:03:46.732 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-01-11 01:03:46.733 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [,,] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-01-11 01:03:46.738 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-01-11 01:03:46.761 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-01-11 01:03:46.785 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-01-11 01:03:46.816 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=16afbd92,type=ConfigurationPropertiesRebinder]
+2020-01-11 01:03:46.840 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [,,] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2020-01-11 01:03:46.849 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:678] [,,] - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-01-11 01:03:46.858 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [,,] - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-01-11 01:03:46.859 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:431] [,,] - Registering beans for JMX exposure on startup
+2020-01-11 01:03:49.418 [main] INFO  [org.springframework.context.support.DefaultLifecycleProcessor:343] [,,] - Starting beans in phase 0
+2020-01-11 01:03:49.437 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:70] [,,] - Setting initial instance status as: STARTING
+2020-01-11 01:03:49.627 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,,] - Using JSON encoding codec LegacyJacksonJson
+2020-01-11 01:03:49.627 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,,] - Using JSON decoding codec LegacyJacksonJson
+2020-01-11 01:03:49.745 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,,] - Using XML encoding codec XStreamXml
+2020-01-11 01:03:49.745 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,,] - Using XML decoding codec XStreamXml
+2020-01-11 01:03:49.948 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:03:49.968 [main] INFO  [com.netflix.discovery.DiscoveryClient:937] [,,] - Disable delta property : false
+2020-01-11 01:03:49.968 [main] INFO  [com.netflix.discovery.DiscoveryClient:938] [,,] - Single vip registry refresh property : null
+2020-01-11 01:03:49.968 [main] INFO  [com.netflix.discovery.DiscoveryClient:939] [,,] - Force full registry fetch : false
+2020-01-11 01:03:49.969 [main] INFO  [com.netflix.discovery.DiscoveryClient:940] [,,] - Application is null : false
+2020-01-11 01:03:49.969 [main] INFO  [com.netflix.discovery.DiscoveryClient:941] [,,] - Registered Applications size is zero : true
+2020-01-11 01:03:49.969 [main] INFO  [com.netflix.discovery.DiscoveryClient:943] [,,] - Application version is -1: true
+2020-01-11 01:03:49.969 [main] INFO  [com.netflix.discovery.DiscoveryClient:1026] [,,] - Getting all instance registry info from the eureka server
+2020-01-11 01:03:50.351 [main] INFO  [com.netflix.discovery.DiscoveryClient:1035] [,,] - The response status is 200
+2020-01-11 01:03:50.353 [main] INFO  [com.netflix.discovery.DiscoveryClient:1261] [,,] - Starting heartbeat executor: renew interval is: 5
+2020-01-11 01:03:50.356 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator:59] [,,] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-01-11 01:03:50.359 [main] INFO  [com.netflix.discovery.DiscoveryClient:461] [,,] - Discovery Client initialized at timestamp 1578675830359 with initial instances count: 3
+2020-01-11 01:03:50.679 [main] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:100] [,,] - Registering application comment with eureka with status UP
+2020-01-11 01:03:50.680 [main] INFO  [com.netflix.discovery.DiscoveryClient:1296] [,,] - Saw local status change event StatusChangeEvent [timestamp=1578675830680, current=UP, previous=STARTING]
+2020-01-11 01:03:50.684 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:812] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085: registering service...
+2020-01-11 01:03:50.712 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-01-11 01:03:50.739 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-01-11 01:03:50.748 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-01-11 01:03:50.759 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-01-11 01:03:50.771 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-01-11 01:03:50.785 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-01-11 01:03:50.791 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:821] [,,] - DiscoveryClient_COMMENT/192.168.43.197:comment:8085 - registration status: 204
+2020-01-11 01:03:50.798 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-01-11 01:03:50.808 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-01-11 01:03:50.819 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-01-11 01:03:50.833 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-01-11 01:03:50.843 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-01-11 01:03:50.851 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] [,,] - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-01-11 01:03:52.509 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] [,,] - Initializing ProtocolHandler ["http-nio-8085"]
+2020-01-11 01:03:52.552 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] [,,] - Starting ProtocolHandler ["http-nio-8085"]
+2020-01-11 01:03:52.579 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] [,,] - Using a shared selector for servlet write/read
+2020-01-11 01:03:52.683 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] [,,] - Tomcat started on port(s): 8085 (http)
+2020-01-11 01:03:52.685 [main] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:168] [,,] - Updating port to 8085
+2020-01-11 01:03:52.706 [main] INFO  [com.mooc.house.comment.CommentSrvApplication:57] [,,] - Started CommentSrvApplication in 24.02 seconds (JVM running for 25.814)
+2020-01-11 01:05:21.373 [http-nio-8085-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] [,,] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-11 01:05:21.374 [http-nio-8085-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] [,,] - FrameworkServlet 'dispatcherServlet': initialization started
+2020-01-11 01:05:21.481 [http-nio-8085-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] [,,] - FrameworkServlet 'dispatcherServlet': initialization completed in 106 ms
+2020-01-11 01:05:21.545 [http-nio-8085-exec-1] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,a1aed7b4267f0e06,3b96df355f150cc4] - Incoming Request: a17d1fe5-2d08-4ff8-9423-7355e4d0784e
+POST http://192.168.43.197:8085/comment/list HTTP/1.1
+x-b3-parentspanid: 3b96df355f150cc4
+content-length: 32
+x-span-name: http:/comment/list
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: a1aed7b4267f0e06
+x-b3-sampled: 0
+host: 192.168.43.197:8085
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"houseId":31,"size":8,"type":1}
+2020-01-11 01:05:21.846 [http-nio-8085-exec-1] INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext:583] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d429692: startup date [Sat Jan 11 01:05:21 CST 2020]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92
+2020-01-11 01:05:21.930 [http-nio-8085-exec-1] INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-01-11 01:05:22.223 [http-nio-8085-exec-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Flipping property: user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-01-11 01:05:22.253 [http-nio-8085-exec-1] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer:58] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Shutdown hook installed for: NFLoadBalancer-PingTimer-user
+2020-01-11 01:05:22.302 [http-nio-8085-exec-1] INFO  [com.netflix.loadbalancer.BaseLoadBalancer:185] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Client:user instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=user,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-01-11 01:05:22.308 [http-nio-8085-exec-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:214] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Using serverListUpdater PollingServerListUpdater
+2020-01-11 01:05:22.354 [http-nio-8085-exec-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Flipping property: user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-01-11 01:05:22.359 [http-nio-8085-exec-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:150] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - DynamicServerListLoadBalancer for client user initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=user,current list of Servers=[192.168.43.197:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.43.197:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4f1f917a
+2020-01-11 01:05:22.480 [http-nio-8085-exec-1] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Outgoing Request: 8508883a-95ed-484d-abd1-bccc61ee4cf8
+GET http://192.168.43.197:8083/user/getById?id=51 HTTP/1.1
+X-Span-Name: http:/user/getById
+Accept: application/json, application/json, application/*+json, application/*+json
+X-B3-SpanId: d9621b683de6a733
+X-B3-ParentSpanId: a1aed7b4267f0e06
+X-B3-Sampled: 0
+X-B3-TraceId: 3b96df355f150cc4
+2020-01-11 01:05:22.543 [http-nio-8085-exec-1] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,d9621b683de6a733,a1aed7b4267f0e06] - Incoming Response: 8508883a-95ed-484d-abd1-bccc61ee4cf8
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:22 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:22.582 [http-nio-8085-exec-1] INFO  [com.mooc.house.comment.common.Rests:79] [3b96df355f150cc4,a1aed7b4267f0e06,3b96df355f150cc4] - Rest executed with params={userId=51} and result=RestResponse [code=0, msg=ok, result=com.mooc.house.comment.model.User@2103d020]
+2020-01-11 01:05:22.659 [http-nio-8085-exec-1] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,a1aed7b4267f0e06,3b96df355f150cc4] - Outgoing Response: a17d1fe5-2d08-4ff8-9423-7355e4d0784e
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: comment:8085
+Date: Fri, 10 Jan 2020 17:05:22 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"id":30,"content":"ggg","houseId":31,"createTime":1578675560000,"blogId":0,"type":1,"userId":51,"userName":"test3","avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg"}]}
+2020-01-11 01:05:23.315 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty:115] [,,] - Flipping property: user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-01-11 01:05:35.280 [http-nio-8085-exec-2] INFO  [org.zalando.logbook.Logbook:74] [a75beda34cbde44f,ac350e129a410bbf,a75beda34cbde44f] - Incoming Request: 83947f1d-66ea-4922-a779-3ff086cebb14
+POST http://192.168.43.197:8085/blog/list HTTP/1.1
+x-b3-parentspanid: a75beda34cbde44f
+content-length: 44
+x-span-name: http:/blog/list
+x-b3-traceid: a75beda34cbde44f
+x-b3-spanid: ac350e129a410bbf
+x-b3-sampled: 0
+host: 192.168.43.197:8085
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"blog":{"tagList":[]},"limit":2,"offset":0}
+2020-01-11 01:05:35.571 [http-nio-8085-exec-2] INFO  [org.zalando.logbook.Logbook:79] [a75beda34cbde44f,ac350e129a410bbf,a75beda34cbde44f] - Outgoing Response: 83947f1d-66ea-4922-a779-3ff086cebb14
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: comment:8085
+Date: Fri, 10 Jan 2020 17:05:35 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"list":[{"id":1,"tags":"a,b","content":"<p>非京籍家庭在京买房需连续5年(含)以上在本市缴纳个人所得税或社保，在资质审核时，个税的审核标准为<strong>在京连续缴纳满60个月。</strong></p>\n<h1>一、个税需满足什么条件？</h1>\n<p>&nbsp;</p>\n<p>根据北京的限购政策，非京籍家庭连续5年(含)以上在京缴纳社会保险或个人所得税，限购1套住房。</p>\n<p>此前购房资格审核时关于工资、薪金纳税人纳税记录的认定，是5年期间，每年至少1次纳税记录即可，自2017年3月22日起已<strong>改为申请月的上一个月开始往前推算连续60个月在北京缴纳个人所得税。</strong></p>\n<p></p><p class=\"insert-img\"><img alt=\"个税审核标准的公告原文\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">个税审核标准的公告原文</span></p><p></p>\n<p>按照公告规定，个税缴纳记录分两种情形审核认定：</p>\n<p>（1）<strong>按“工资、薪金所得”缴税的纳税人</strong>，应从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税。</p>\n<p>（2）<strong>按“个体工商户生产、经营所得”缴税的纳税人</strong>，包括取得“个体工商户生产、经营所得”的个体工商户经营者、个人独资企业出资人、合伙企业个人合伙人和个人，根据各自适用的计税期间，采取按月缴纳税款方式的，从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税；采取按季缴纳税款方式的，从申请月的上一季度开始往前推算20个季度在本市连续缴纳个人所得税。</p>\n<p>&nbsp;</p>\n<h1>二、个税断了还能买房吗？</h1>\n<p>&nbsp;</p>\n<p>公告规定：对于因工作变动等原因造成未缴或补缴税款且不超过3个月的，视为连续缴纳。意味着连续的60个月中，<strong>个税有过断缴但不超过3个月的不影响购房资格。</strong></p>\n<p><strong>个税断缴超过3个月或者薪资未达到个税征收标准的非京籍家庭，</strong>想要买房需看社保有没有连续缴纳满60个月，且自2012年12月18日起，补缴社保在购房资格审核中不予认可，但因工作调转单位补缴不超过3个月的视为有效。</p>\n<p></p><p class=\"insert-img\"><img alt=\"非京籍买房，个税和社保缴纳标准满足一个即可\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">非京籍买房，个税和社保缴纳标准满足一个即可</span></p><p></p>\n<p>为了避免违约，想买房的非京籍家庭若个税或社保有断缴情况，建议先去不动产登记中心确认购房资质再签合同。</p>\n<p>资料来源：《关于进一步严格购房资格审核中个人所得税政策执行标准的公告》</p>\n","title":"非京籍家庭在京买房条件","createTime":1488348000000,"digest":"非京籍家庭在京买房需连续5年(含)以上在本市缴纳个人所得税或社保，在资质审核时，","tagList":["a","b"]},{"id":2,"tags":"a,b","content":"<p>非京籍家庭在京买房需连续5年(含)以上在本市缴纳个人所得税或社保，在资质审核时，个税的审核标准为<strong>在京连续缴纳满60个月。</strong></p>\n<h1>一、个税需满足什么条件？</h1>\n<p>&nbsp;</p>\n<p>根据北京的限购政策，非京籍家庭连续5年(含)以上在京缴纳社会保险或个人所得税，限购1套住房。</p>\n<p>此前购房资格审核时关于工资、薪金纳税人纳税记录的认定，是5年期间，每年至少1次纳税记录即可，自2017年3月22日起已<strong>改为申请月的上一个月开始往前推算连续60个月在北京缴纳个人所得税。</strong></p>\n<p></p><p class=\"insert-img\"><img alt=\"个税审核标准的公告原文\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">个税审核标准的公告原文</span></p><p></p>\n<p>按照公告规定，个税缴纳记录分两种情形审核认定：</p>\n<p>（1）<strong>按“工资、薪金所得”缴税的纳税人</strong>，应从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税。</p>\n<p>（2）<strong>按“个体工商户生产、经营所得”缴税的纳税人</strong>，包括取得“个体工商户生产、经营所得”的个体工商户经营者、个人独资企业出资人、合伙企业个人合伙人和个人，根据各自适用的计税期间，采取按月缴纳税款方式的，从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税；采取按季缴纳税款方式的，从申请月的上一季度开始往前推算20个季度在本市连续缴纳个人所得税。</p>\n<p>&nbsp;</p>\n<h1>二、个税断了还能买房吗？</h1>\n<p>&nbsp;</p>\n<p>公告规定：对于因工作变动等原因造成未缴或补缴税款且不超过3个月的，视为连续缴纳。意味着连续的60个月中，<strong>个税有过断缴但不超过3个月的不影响购房资格。</strong></p>\n<p><strong>个税断缴超过3个月或者薪资未达到个税征收标准的非京籍家庭，</strong>想要买房需看社保有没有连续缴纳满60个月，且自2012年12月18日起，补缴社保在购房资格审核中不予认可，但因工作调转单位补缴不超过3个月的视为有效。</p>\n<p></p><p class=\"insert-img\"><img alt=\"非京籍买房，个税和社保缴纳标准满足一个即可\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">非京籍买房，个税和社保缴纳标准满足一个即可</span></p><p></p>\n<p>为了避免违约，想买房的非京籍家庭若个税或社保有断缴情况，建议先去不动产登记中心确认购房资质再签合同。</p>\n<p>资料来源：《关于进一步严格购房资格审核中个人所得税政策执行标准的公告》</p>\n","title":"非京籍家庭在京买房条件","createTime":1488348000000,"digest":"非京籍家庭在京买房需连续5年(含)以上在本市缴纳个人所得税或社保，在资质审核时，","tagList":["a","b"]}],"count":8}}
+2020-01-11 01:05:38.074 [http-nio-8085-exec-3] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,623fdc1f10e6c8fb,3ff56c2298cfffef] - Incoming Request: 3830602d-d045-4cfc-b324-a81711c1795d
+GET http://192.168.43.197:8085/blog/one?id=1 HTTP/1.1
+x-b3-parentspanid: 3ff56c2298cfffef
+x-span-name: http:/blog/one
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: 623fdc1f10e6c8fb
+x-b3-sampled: 0
+host: 192.168.43.197:8085
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.115 [http-nio-8085-exec-3] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,623fdc1f10e6c8fb,3ff56c2298cfffef] - Outgoing Response: 3830602d-d045-4cfc-b324-a81711c1795d
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: comment:8085
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"id":1,"tags":"a,b","content":"<p>非京籍家庭在京买房需连续5年(含)以上在本市缴纳个人所得税或社保，在资质审核时，个税的审核标准为<strong>在京连续缴纳满60个月。</strong></p>\n<h1>一、个税需满足什么条件？</h1>\n<p>&nbsp;</p>\n<p>根据北京的限购政策，非京籍家庭连续5年(含)以上在京缴纳社会保险或个人所得税，限购1套住房。</p>\n<p>此前购房资格审核时关于工资、薪金纳税人纳税记录的认定，是5年期间，每年至少1次纳税记录即可，自2017年3月22日起已<strong>改为申请月的上一个月开始往前推算连续60个月在北京缴纳个人所得税。</strong></p>\n<p></p><p class=\"insert-img\"><img alt=\"个税审核标准的公告原文\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490269714phpVyoN4Y.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">个税审核标准的公告原文</span></p><p></p>\n<p>按照公告规定，个税缴纳记录分两种情形审核认定：</p>\n<p>（1）<strong>按“工资、薪金所得”缴税的纳税人</strong>，应从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税。</p>\n<p>（2）<strong>按“个体工商户生产、经营所得”缴税的纳税人</strong>，包括取得“个体工商户生产、经营所得”的个体工商户经营者、个人独资企业出资人、合伙企业个人合伙人和个人，根据各自适用的计税期间，采取按月缴纳税款方式的，从申请月的上一个月开始往前推算60个月在本市连续缴纳个人所得税；采取按季缴纳税款方式的，从申请月的上一季度开始往前推算20个季度在本市连续缴纳个人所得税。</p>\n<p>&nbsp;</p>\n<h1>二、个税断了还能买房吗？</h1>\n<p>&nbsp;</p>\n<p>公告规定：对于因工作变动等原因造成未缴或补缴税款且不超过3个月的，视为连续缴纳。意味着连续的60个月中，<strong>个税有过断缴但不超过3个月的不影响购房资格。</strong></p>\n<p><strong>个税断缴超过3个月或者薪资未达到个税征收标准的非京籍家庭，</strong>想要买房需看社保有没有连续缴纳满60个月，且自2012年12月18日起，补缴社保在购房资格审核中不予认可，但因工作调转单位补缴不超过3个月的视为有效。</p>\n<p></p><p class=\"insert-img\"><img alt=\"非京籍买房，个税和社保缴纳标准满足一个即可\" src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" _src=\"http://image1.ljcdn.com/neirong-image/neirong1490265314phpVriyGD.jpeg\" class=\"insert-img-img\"><span class=\"insert-img-img-title\">非京籍买房，个税和社保缴纳标准满足一个即可</span></p><p></p>\n<p>为了避免违约，想买房的非京籍家庭若个税或社保有断缴情况，建议先去不动产登记中心确认购房资质再签合同。</p>\n<p>资料来源：《关于进一步严格购房资格审核中个人所得税政策执行标准的公告》</p>\n","title":"非京籍家庭在京买房条件","createTime":1488348000000,"digest":null,"tagList":[]}}
+2020-01-11 01:05:38.128 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Incoming Request: 04c275aa-66cd-4c1f-9173-b6c86a0b5031
+POST http://192.168.43.197:8085/comment/list HTTP/1.1
+x-b3-parentspanid: 3ff56c2298cfffef
+content-length: 30
+x-span-name: http:/comment/list
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: e0588967cad9bede
+x-b3-sampled: 0
+host: 192.168.43.197:8085
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"blogId":1,"size":8,"type":2}
+2020-01-11 01:05:38.156 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,090cafb4dddf3f98,e0588967cad9bede] - Outgoing Request: 1d838ab8-8012-4518-b93f-f6bcc13912ac
+GET http://192.168.43.197:8083/user/getById?id=38 HTTP/1.1
+X-Span-Name: http:/user/getById
+Accept: application/json, application/json, application/*+json, application/*+json
+X-B3-SpanId: 090cafb4dddf3f98
+X-B3-ParentSpanId: e0588967cad9bede
+X-B3-Sampled: 0
+X-B3-TraceId: 3ff56c2298cfffef
+2020-01-11 01:05:38.183 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,090cafb4dddf3f98,e0588967cad9bede] - Incoming Response: 1d838ab8-8012-4518-b93f-f6bcc13912ac
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":38,"name":"mooc_hello","phone":"12090909090","email":"mooc_hello1@163.com","aboutme":"新用户111","passwd":"3bf8013c27e39f2bb7060368bf5f6e49","confirmPasswd":null,"type":1,"createTime":1514786400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.186 [http-nio-8085-exec-4] INFO  [com.mooc.house.comment.common.Rests:79] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Rest executed with params={userId=38} and result=RestResponse [code=0, msg=ok, result=com.mooc.house.comment.model.User@2ddf5ff9]
+2020-01-11 01:05:38.192 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,eaf2c513f898eb63,e0588967cad9bede] - Outgoing Request: fb33ad29-9881-4a46-bd13-363115a55d83
+GET http://192.168.43.197:8083/user/getById?id=38 HTTP/1.1
+X-Span-Name: http:/user/getById
+Accept: application/json, application/json, application/*+json, application/*+json
+X-B3-SpanId: eaf2c513f898eb63
+X-B3-ParentSpanId: e0588967cad9bede
+X-B3-Sampled: 0
+X-B3-TraceId: 3ff56c2298cfffef
+2020-01-11 01:05:38.227 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,eaf2c513f898eb63,e0588967cad9bede] - Incoming Response: fb33ad29-9881-4a46-bd13-363115a55d83
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":38,"name":"mooc_hello","phone":"12090909090","email":"mooc_hello1@163.com","aboutme":"新用户111","passwd":"3bf8013c27e39f2bb7060368bf5f6e49","confirmPasswd":null,"type":1,"createTime":1514786400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.231 [http-nio-8085-exec-4] INFO  [com.mooc.house.comment.common.Rests:79] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Rest executed with params={userId=38} and result=RestResponse [code=0, msg=ok, result=com.mooc.house.comment.model.User@628ac7b3]
+2020-01-11 01:05:38.235 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,b3787dc823a1abf2,e0588967cad9bede] - Outgoing Request: f940d155-2751-4352-9764-5e5644e94ae7
+GET http://192.168.43.197:8083/user/getById?id=25 HTTP/1.1
+X-Span-Name: http:/user/getById
+Accept: application/json, application/json, application/*+json, application/*+json
+X-B3-SpanId: b3787dc823a1abf2
+X-B3-ParentSpanId: e0588967cad9bede
+X-B3-Sampled: 0
+X-B3-TraceId: 3ff56c2298cfffef
+2020-01-11 01:05:38.251 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,b3787dc823a1abf2,e0588967cad9bede] - Incoming Response: f940d155-2751-4352-9764-5e5644e94ae7
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":25,"name":"1","phone":"18909090909","email":"mooc_hello2@163.com","aboutme":"11111","passwd":"75fb23b165249cedeb60544c4095ec99","confirmPasswd":null,"type":1,"createTime":1494219600000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1494253659/agent-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.253 [http-nio-8085-exec-4] INFO  [com.mooc.house.comment.common.Rests:79] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Rest executed with params={userId=25} and result=RestResponse [code=0, msg=ok, result=com.mooc.house.comment.model.User@1cb8d265]
+2020-01-11 01:05:38.256 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,0539b11621312c1c,e0588967cad9bede] - Outgoing Request: 4bfd1f88-55f1-4f12-9bef-82900137f993
+GET http://192.168.43.197:8083/user/getById?id=7 HTTP/1.1
+X-Span-Name: http:/user/getById
+Accept: application/json, application/json, application/*+json, application/*+json
+X-B3-SpanId: 0539b11621312c1c
+X-B3-ParentSpanId: e0588967cad9bede
+X-B3-Sampled: 0
+X-B3-TraceId: 3ff56c2298cfffef
+2020-01-11 01:05:38.273 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,0539b11621312c1c,e0588967cad9bede] - Incoming Response: 4bfd1f88-55f1-4f12-9bef-82900137f993
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":7,"name":"hello99","phone":"hello","email":"spring_boot@163.com","aboutme":"2255","passwd":"75fb23b165249cedeb60544c4095ec99","confirmPasswd":null,"type":2,"createTime":1485842400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1493438523/4.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":1,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.276 [http-nio-8085-exec-4] INFO  [com.mooc.house.comment.common.Rests:79] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Rest executed with params={userId=7} and result=RestResponse [code=0, msg=ok, result=com.mooc.house.comment.model.User@1a071498]
+2020-01-11 01:05:38.283 [http-nio-8085-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,e0588967cad9bede,3ff56c2298cfffef] - Outgoing Response: 04c275aa-66cd-4c1f-9173-b6c86a0b5031
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: comment:8085
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"id":27,"content":"按“工资、薪金所得”缴税的纳税人","houseId":0,"createTime":1515303785000,"blogId":1,"type":2,"userId":38,"userName":"mooc_hello","avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg"},{"id":26,"content":"个税和社保缴纳标准满足一个即可非京籍买房，个税和社保缴纳标准满足一个即可","houseId":0,"createTime":1515303770000,"blogId":1,"type":2,"userId":38,"userName":"mooc_hello","avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg"},{"id":19,"content":"11111","houseId":0,"createTime":1494219600000,"blogId":1,"type":2,"userId":25,"userName":"1","avatar":"http://127.0.0.1:8087/images/1494253659/agent-01.jpg"},{"id":10,"content":"111","houseId":0,"createTime":1491368400000,"blogId":1,"type":2,"userId":7,"userName":"hello99","avatar":"http://127.0.0.1:8087/images/1493438523/4.jpg"}]}
+2020-01-11 01:08:49.972 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:13:49.973 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:18:49.974 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:42:11.455 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,,] - Resolving eureka endpoints via configuration
+2020-01-11 01:45:12.586 [Thread-67] INFO  [com.netflix.loadbalancer.PollingServerListUpdater:53] [,,] - Shutting down the Executor Pool for PollingServerListUpdater
+2020-01-11 01:45:12.587 [Thread-55] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] [,,] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16afbd92: startup date [Sat Jan 11 01:03:30 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@76a2ddf3
+2020-01-11 01:45:12.590 [Thread-55] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:128] [,,] - Unregistering application comment with eureka with status DOWN
+2020-01-11 01:45:12.590 [Thread-55] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,,] - Saw local status change event StatusChangeEvent [timestamp=1578678312590, current=DOWN, previous=UP]

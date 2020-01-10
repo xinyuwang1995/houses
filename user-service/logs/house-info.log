@@ -1,0 +1,870 @@
+2020-01-11 01:00:34.708 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:74] [e64ca111890bcfdb,8dc0c76e2a99b1a7] - Incoming Request: 28aff0f3-2d45-4d37-ac15-c8a98f90d32e
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: e64ca111890bcfdb
+x-span-name: http:/user/get
+x-b3-traceid: e64ca111890bcfdb
+x-b3-spanid: 8dc0c76e2a99b1a7
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:34.727 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [e64ca111890bcfdb,8dc0c76e2a99b1a7] - Outgoing Response: 28aff0f3-2d45-4d37-ac15-c8a98f90d32e
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:34 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:00:37.576 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:74] [eef3ad5b5d171ae4,b3f28498427984fa] - Incoming Request: b477c341-a5ae-4548-abcd-186a51550297
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: eef3ad5b5d171ae4
+x-span-name: http:/user/get
+x-b3-traceid: eef3ad5b5d171ae4
+x-b3-spanid: b3f28498427984fa
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:37.599 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [eef3ad5b5d171ae4,b3f28498427984fa] - Outgoing Response: b477c341-a5ae-4548-abcd-186a51550297
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:37 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:00:40.848 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:74] [62f3df2bef7b81cb,1763208e0a61fde3] - Incoming Request: 5e402a0f-3c4b-461d-ba6e-09456108aa1d
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 62f3df2bef7b81cb
+x-span-name: http:/user/get
+x-b3-traceid: 62f3df2bef7b81cb
+x-b3-spanid: 1763208e0a61fde3
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:40.865 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [62f3df2bef7b81cb,1763208e0a61fde3] - Outgoing Response: 5e402a0f-3c4b-461d-ba6e-09456108aa1d
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:40 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:00:46.758 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:74] [fe9f52f76fcae5ec,c68c1b7852e24acc] - Incoming Request: 715ee81c-83f4-4e19-89b7-33b5028841ea
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: fe9f52f76fcae5ec
+x-span-name: http:/user/get
+x-b3-traceid: fe9f52f76fcae5ec
+x-b3-spanid: c68c1b7852e24acc
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:46.775 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [fe9f52f76fcae5ec,c68c1b7852e24acc] - Outgoing Response: 715ee81c-83f4-4e19-89b7-33b5028841ea
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:46 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:00:50.920 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:74] [82846462e5c39eea,c06247f9354f7819] - Incoming Request: 41feb146-4ca2-4372-a035-0ef10add8bb3
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 82846462e5c39eea
+x-span-name: http:/user/get
+x-b3-traceid: 82846462e5c39eea
+x-b3-spanid: c06247f9354f7819
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:50.938 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:79] [82846462e5c39eea,c06247f9354f7819] - Outgoing Response: 41feb146-4ca2-4372-a035-0ef10add8bb3
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:50 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:00:50.950 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:74] [82846462e5c39eea,90d0e4fee0254f9c] - Incoming Request: 52365950-0978-4b35-acc4-3cb49d623813
+GET http://192.168.43.197:8083/agency/list HTTP/1.1
+x-b3-parentspanid: 82846462e5c39eea
+x-span-name: http:/agency/list
+x-b3-traceid: 82846462e5c39eea
+x-b3-spanid: 90d0e4fee0254f9c
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:50.964 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [82846462e5c39eea,90d0e4fee0254f9c] - Outgoing Response: 52365950-0978-4b35-acc4-3cb49d623813
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:50 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":[{"id":1,"name":"恋家","address":"恋家地址","phone":"010-89898989","email":"010@gmail.com","aboutUs":"1","webSite":"1","mobile":"1"},{"id":2,"name":"交点房产","address":"交点房产地址","phone":"010-87898989","email":"020@gmail.com","aboutUs":"1","webSite":"1","mobile":"1"},{"id":3,"name":"唛田","address":"唛田地址","phone":"010-88898989","email":"030@gmail.com","aboutUs":"1","webSite":"1","mobile":"1"},{"id":4,"name":"安聚客","address":"安聚客地址","phone":"010-81898989","email":"040@gmail.com","aboutUs":"1","webSite":"1","mobile":"1"}]}
+2020-01-11 01:00:59.804 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:74] [fb9414a912717fb6,6b2004b18842c528] - Incoming Request: 74dd28d1-b1e3-4592-b66e-2edc8325f789
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: fb9414a912717fb6
+x-span-name: http:/user/get
+x-b3-traceid: fb9414a912717fb6
+x-b3-spanid: 6b2004b18842c528
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:59.819 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:79] [fb9414a912717fb6,6b2004b18842c528] - Outgoing Response: 74dd28d1-b1e3-4592-b66e-2edc8325f789
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:00:59 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:01:01.367 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:74] [09e1d3b93c126201,7a5e3739d31ee8fb] - Incoming Request: c03d667d-f36a-43c9-b398-dfd3db923714
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 09e1d3b93c126201
+x-span-name: http:/user/get
+x-b3-traceid: 09e1d3b93c126201
+x-b3-spanid: 7a5e3739d31ee8fb
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:01:01.384 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:79] [09e1d3b93c126201,7a5e3739d31ee8fb] - Outgoing Response: c03d667d-f36a-43c9-b398-dfd3db923714
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:01:01 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:01:03.988 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:74] [462d1731ec776b4b,50c25581dcd1d9e8] - Incoming Request: 97be45b4-ed21-461a-8e5f-f1a8bdeb437a
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 462d1731ec776b4b
+x-span-name: http:/user/get
+x-b3-traceid: 462d1731ec776b4b
+x-b3-spanid: 50c25581dcd1d9e8
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:01:04.006 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [462d1731ec776b4b,50c25581dcd1d9e8] - Outgoing Response: 97be45b4-ed21-461a-8e5f-f1a8bdeb437a
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:01:04 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:01:40.703 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:74] [18e48f2506d5e086,e7d1541b90193b4c] - Incoming Request: e08a8508-c25e-4ba8-861a-b1cec9cd3eb9
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 18e48f2506d5e086
+x-span-name: http:/user/get
+x-b3-traceid: 18e48f2506d5e086
+x-b3-spanid: e7d1541b90193b4c
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:01:40.718 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [18e48f2506d5e086,e7d1541b90193b4c] - Outgoing Response: e08a8508-c25e-4ba8-861a-b1cec9cd3eb9
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:01:40 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:02:17.878 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:03:48.976 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:74] [1c212c367a8a7c78,4e53aefda15a2ec5] - Incoming Request: 1b7159c0-1f98-4da7-bcda-e79890b81502
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 1c212c367a8a7c78
+x-span-name: http:/user/get
+x-b3-traceid: 1c212c367a8a7c78
+x-b3-spanid: 4e53aefda15a2ec5
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:03:48.988 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [1c212c367a8a7c78,4e53aefda15a2ec5] - Outgoing Response: 1b7159c0-1f98-4da7-bcda-e79890b81502
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:03:48 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:03:50.985 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:74] [06e64dd487ba06ca,a7591857d7bc519c] - Incoming Request: b26dd48f-170d-461f-9a38-8b25f53ef20a
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 06e64dd487ba06ca
+x-span-name: http:/user/get
+x-b3-traceid: 06e64dd487ba06ca
+x-b3-spanid: a7591857d7bc519c
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:03:51.017 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [06e64dd487ba06ca,a7591857d7bc519c] - Outgoing Response: b26dd48f-170d-461f-9a38-8b25f53ef20a
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:03:51 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:03:52.216 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:74] [e4d8db03d2dc5a5f,f74d761b4562d9e2] - Incoming Request: 073af76b-e541-4a8f-b6dd-340dd749b943
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: e4d8db03d2dc5a5f
+x-span-name: http:/user/get
+x-b3-traceid: e4d8db03d2dc5a5f
+x-b3-spanid: f74d761b4562d9e2
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:03:52.237 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [e4d8db03d2dc5a5f,f74d761b4562d9e2] - Outgoing Response: 073af76b-e541-4a8f-b6dd-340dd749b943
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:03:52 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:21.142 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,106fe81ca37c9338] - Incoming Request: 8e1f8169-ba91-4e98-86e5-5ede51e666d0
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 3b96df355f150cc4
+x-span-name: http:/user/get
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: 106fe81ca37c9338
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:21.163 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,106fe81ca37c9338] - Outgoing Response: 8e1f8169-ba91-4e98-86e5-5ede51e666d0
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:21 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:22.513 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,d9621b683de6a733] - Incoming Request: 92d9568e-6d24-4548-9322-4fbeb4b64711
+GET http://192.168.43.197:8083/user/getById?id=51 HTTP/1.1
+x-b3-parentspanid: a1aed7b4267f0e06
+x-span-name: http:/user/getById
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: d9621b683de6a733
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:22.523 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,d9621b683de6a733] - Outgoing Response: 92d9568e-6d24-4548-9322-4fbeb4b64711
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:22 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:22.687 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,481b2b42b321962b] - Incoming Request: 50608209-8c1e-4e6c-a034-daa468f1f8e1
+GET http://192.168.43.197:8083/agency/agentDetail?id=44 HTTP/1.1
+x-b3-parentspanid: 3b96df355f150cc4
+x-span-name: http:/agency/agentDetail
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: 481b2b42b321962b
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:22.699 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,481b2b42b321962b] - Outgoing Response: 50608209-8c1e-4e6c-a034-daa468f1f8e1
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:22 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":null}
+2020-01-11 01:05:35.248 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:74] [a75beda34cbde44f,9488b9ba39fd77a5] - Incoming Request: 724da4e6-12f1-46ac-8a31-15a925c7ea8b
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: a75beda34cbde44f
+x-span-name: http:/user/get
+x-b3-traceid: a75beda34cbde44f
+x-b3-spanid: 9488b9ba39fd77a5
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:35.264 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [a75beda34cbde44f,9488b9ba39fd77a5] - Outgoing Response: 724da4e6-12f1-46ac-8a31-15a925c7ea8b
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:35 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.034 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,80fdbeb1c3ef9f67] - Incoming Request: a495ddc6-53f1-4577-b585-264d08b6e42a
+GET http://192.168.43.197:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE HTTP/1.1
+x-b3-parentspanid: 3ff56c2298cfffef
+x-span-name: http:/user/get
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: 80fdbeb1c3ef9f67
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.051 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,80fdbeb1c3ef9f67] - Outgoing Response: a495ddc6-53f1-4577-b585-264d08b6e42a
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":51,"name":"test3","phone":"89265854968","email":"18292059068@163.com","aboutme":"fff","passwd":"85ee2b4734956fecb94d331b725d391a","confirmPasswd":null,"type":1,"createTime":1578636000000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1578673717/thumb-property-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtb29jX3VzZXIiLCJuYW1lIjoidGVzdDMiLCJleHAiOjE1Nzg3NjEwMTksImVtYWlsIjoiMTgyOTIwNTkwNjhAMTYzLmNvbSIsInRzIjoiMTU3ODY3NDYxOSJ9.DqZ8KufooFD9txOK-keNEVZxQZ6XVCY4HFlz6xAucLE","enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.167 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,090cafb4dddf3f98] - Incoming Request: 7a3c4e52-b0a6-432f-90f8-1abacd7f8874
+GET http://192.168.43.197:8083/user/getById?id=38 HTTP/1.1
+x-b3-parentspanid: e0588967cad9bede
+x-span-name: http:/user/getById
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: 090cafb4dddf3f98
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.180 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,090cafb4dddf3f98] - Outgoing Response: 7a3c4e52-b0a6-432f-90f8-1abacd7f8874
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":38,"name":"mooc_hello","phone":"12090909090","email":"mooc_hello1@163.com","aboutme":"新用户111","passwd":"3bf8013c27e39f2bb7060368bf5f6e49","confirmPasswd":null,"type":1,"createTime":1514786400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.198 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,eaf2c513f898eb63] - Incoming Request: 98888db7-c6fe-41bd-adde-84848223a9eb
+GET http://192.168.43.197:8083/user/getById?id=38 HTTP/1.1
+x-b3-parentspanid: e0588967cad9bede
+x-span-name: http:/user/getById
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: eaf2c513f898eb63
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.223 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,eaf2c513f898eb63] - Outgoing Response: 98888db7-c6fe-41bd-adde-84848223a9eb
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":38,"name":"mooc_hello","phone":"12090909090","email":"mooc_hello1@163.com","aboutme":"新用户111","passwd":"3bf8013c27e39f2bb7060368bf5f6e49","confirmPasswd":null,"type":1,"createTime":1514786400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1514816998/client-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.238 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,b3787dc823a1abf2] - Incoming Request: 80fe3ff2-9807-434f-9760-86a2d3a133b6
+GET http://192.168.43.197:8083/user/getById?id=25 HTTP/1.1
+x-b3-parentspanid: e0588967cad9bede
+x-span-name: http:/user/getById
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: b3787dc823a1abf2
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.248 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,b3787dc823a1abf2] - Outgoing Response: 80fe3ff2-9807-434f-9760-86a2d3a133b6
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":25,"name":"1","phone":"18909090909","email":"mooc_hello2@163.com","aboutme":"11111","passwd":"75fb23b165249cedeb60544c4095ec99","confirmPasswd":null,"type":1,"createTime":1494219600000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1494253659/agent-01.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":0,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:05:38.261 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,0539b11621312c1c] - Incoming Request: 4ee5fe07-9834-466e-9b9b-50909d508ee1
+GET http://192.168.43.197:8083/user/getById?id=7 HTTP/1.1
+x-b3-parentspanid: e0588967cad9bede
+x-span-name: http:/user/getById
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: 0539b11621312c1c
+x-b3-sampled: 0
+host: 192.168.43.197:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.272 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,0539b11621312c1c] - Outgoing Response: 4ee5fe07-9834-466e-9b9b-50909d508ee1
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-Application-Context: user:8083
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"ok","result":{"id":7,"name":"hello99","phone":"hello","email":"spring_boot@163.com","aboutme":"2255","passwd":"75fb23b165249cedeb60544c4095ec99","confirmPasswd":null,"type":2,"createTime":1485842400000,"enable":1,"avatar":"http://127.0.0.1:8087/images/1493438523/4.jpg","avatarFile":null,"newPassword":null,"key":null,"agencyId":1,"token":null,"enableUrl":null,"agencyName":null}}
+2020-01-11 01:07:17.879 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:12:17.880 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:17:17.881 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:22:17.881 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:45:37.208 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:91] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 26 more
+2020-01-11 01:45:37.208 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:37.209 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-01-11 01:45:37.209 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:37.213 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:841] [,] - DiscoveryClient_USER/192.168.43.197:user:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:39.363 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:45:40.034 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:91] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 more
+2020-01-11 01:45:40.034 [DiscoveryClient-CacheRefreshExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:40.035 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2020-01-11 01:45:40.036 [DiscoveryClient-CacheRefreshExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:40.036 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:951] [,] - DiscoveryClient_USER/192.168.43.197:user:8083 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:42.215 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-01-11 01:45:42.215 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:42.215 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:841] [,] - DiscoveryClient_USER/192.168.43.197:user:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:47.219 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-01-11 01:45:47.219 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:47.220 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:841] [,] - DiscoveryClient_USER/192.168.43.197:user:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:52.223 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-01-11 01:45:52.223 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:52.223 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:841] [,] - DiscoveryClient_USER/192.168.43.197:user:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:56.627 [Thread-55] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] [,] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1051817b: startup date [Sat Jan 11 00:41:56 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@77102b91
+2020-01-11 01:45:56.629 [Thread-55] INFO  [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:128] [,] - Unregistering application user with eureka with status DOWN
+2020-01-11 01:45:56.629 [Thread-55] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,] - Saw local status change event StatusChangeEvent [timestamp=1578678356629, current=DOWN, previous=UP]
+2020-01-11 01:45:56.630 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient:812] [,] - DiscoveryClient_USER/192.168.43.197:user:8083: registering service...
+2020-01-11 01:45:56.630 [Thread-55] INFO  [com.netflix.discovery.DiscoveryClient:869] [,] - Shutting down DiscoveryClient ...

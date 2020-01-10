@@ -1,0 +1,588 @@
+2020-01-11 01:00:34.741 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:74] [e64ca111890bcfdb,f9c064f0d42b0e06] - Incoming Request: 4ca21969-9e2c-45da-a9be-a0334145a37a
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: e64ca111890bcfdb
+x-span-name: http:/house/detail
+x-b3-traceid: e64ca111890bcfdb
+x-b3-spanid: f9c064f0d42b0e06
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:00:34.773 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:79] [e64ca111890bcfdb,f9c064f0d42b0e06] - Outgoing Response: 4ca21969-9e2c-45da-a9be-a0334145a37a
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:00:34 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:00:40.880 [http-nio-8084-exec-2] INFO  [org.zalando.logbook.Logbook:74] [62f3df2bef7b81cb,2dd29ed6c27c72c6] - Incoming Request: b7627a8c-b632-4cea-9d43-388370c7dcf2
+POST http://localhost:8084/house/list HTTP/1.1
+x-b3-parentspanid: 62f3df2bef7b81cb
+content-length: 137
+x-span-name: http:/house/list
+x-b3-traceid: 62f3df2bef7b81cb
+x-b3-spanid: 2dd29ed6c27c72c6
+x-b3-sampled: 0
+host: localhost:8084
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"limit":2,"offset":0,"query":{"bookmarked":false,"featureList":[],"floorPlanList":[],"imageList":[],"roundRating":0,"sort":"time_desc"}}
+2020-01-11 01:00:40.910 [http-nio-8084-exec-2] INFO  [org.zalando.logbook.Logbook:79] [62f3df2bef7b81cb,2dd29ed6c27c72c6] - Outgoing Response: b7627a8c-b632-4cea-9d43-388370c7dcf2
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 1401
+Date: Fri, 10 Jan 2020 17:00:40 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"count":2,"list":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44},{"address":"mgtu","area":120,"baths":2,"beds":2,"bookmarked":false,"cityId":2,"communityId":8,"createTime":1578636000000,"featureList":["学区房"],"firstImg":"http://127.0.0.1:8087/images/1578670209/property-13.jpg","floorPlan":"/1578670209/floor-plan-02.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578670209/floor-plan-02.jpg"],"id":32,"imageList":["http://127.0.0.1:8087/images/1578670209/property-13.jpg"],"images":"/1578670209/property-13.jpg","name":"house2","price":1,"priceStr":"1万","properties":"学区房","rating":0.0,"remarks":"hhhh","roundRating":0,"sort":"time_desc","state":1,"tags":"","type":1,"userId":49}]}}
+2020-01-11 01:00:40.918 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:74] [62f3df2bef7b81cb,79387fc99607f01e] - Incoming Request: 43d55da5-d67d-477b-8707-a39831d53fbc
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: 62f3df2bef7b81cb
+x-span-name: http:/house/hot
+x-b3-traceid: 62f3df2bef7b81cb
+x-b3-spanid: 79387fc99607f01e
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:40.939 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:79] [62f3df2bef7b81cb,79387fc99607f01e] - Outgoing Response: 43d55da5-d67d-477b-8707-a39831d53fbc
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:00:40 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:00:46.787 [http-nio-8084-exec-5] INFO  [org.zalando.logbook.Logbook:74] [fe9f52f76fcae5ec,d1295f055879f37c] - Incoming Request: a1d3ad06-9b2d-4f1a-9523-cadc059ccc54
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: fe9f52f76fcae5ec
+x-span-name: http:/house/detail
+x-b3-traceid: fe9f52f76fcae5ec
+x-b3-spanid: d1295f055879f37c
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:00:46.811 [http-nio-8084-exec-5] INFO  [org.zalando.logbook.Logbook:79] [fe9f52f76fcae5ec,d1295f055879f37c] - Outgoing Response: a1d3ad06-9b2d-4f1a-9523-cadc059ccc54
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:00:46 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:00:59.834 [http-nio-8084-exec-7] INFO  [org.zalando.logbook.Logbook:74] [fb9414a912717fb6,8168d0bb420f2242] - Incoming Request: 240289ff-65cb-4e9a-9f21-b9ef839ed70c
+POST http://localhost:8084/house/list HTTP/1.1
+x-b3-parentspanid: fb9414a912717fb6
+content-length: 137
+x-span-name: http:/house/list
+x-b3-traceid: fb9414a912717fb6
+x-b3-spanid: 8168d0bb420f2242
+x-b3-sampled: 0
+host: localhost:8084
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"limit":2,"offset":0,"query":{"bookmarked":false,"featureList":[],"floorPlanList":[],"imageList":[],"roundRating":0,"sort":"time_desc"}}
+2020-01-11 01:00:59.884 [http-nio-8084-exec-7] INFO  [org.zalando.logbook.Logbook:79] [fb9414a912717fb6,8168d0bb420f2242] - Outgoing Response: 240289ff-65cb-4e9a-9f21-b9ef839ed70c
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 1401
+Date: Fri, 10 Jan 2020 17:00:59 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"count":2,"list":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44},{"address":"mgtu","area":120,"baths":2,"beds":2,"bookmarked":false,"cityId":2,"communityId":8,"createTime":1578636000000,"featureList":["学区房"],"firstImg":"http://127.0.0.1:8087/images/1578670209/property-13.jpg","floorPlan":"/1578670209/floor-plan-02.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578670209/floor-plan-02.jpg"],"id":32,"imageList":["http://127.0.0.1:8087/images/1578670209/property-13.jpg"],"images":"/1578670209/property-13.jpg","name":"house2","price":1,"priceStr":"1万","properties":"学区房","rating":0.0,"remarks":"hhhh","roundRating":0,"sort":"time_desc","state":1,"tags":"","type":1,"userId":49}]}}
+2020-01-11 01:00:59.889 [http-nio-8084-exec-8] INFO  [org.zalando.logbook.Logbook:74] [fb9414a912717fb6,26ac5bbb8311331b] - Incoming Request: 5b1e5077-001d-4164-8afa-7c97271173c6
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: fb9414a912717fb6
+x-span-name: http:/house/hot
+x-b3-traceid: fb9414a912717fb6
+x-b3-spanid: 26ac5bbb8311331b
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:00:59.909 [http-nio-8084-exec-8] INFO  [org.zalando.logbook.Logbook:79] [fb9414a912717fb6,26ac5bbb8311331b] - Outgoing Response: 5b1e5077-001d-4164-8afa-7c97271173c6
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:00:59 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:01:01.399 [http-nio-8084-exec-9] INFO  [org.zalando.logbook.Logbook:74] [09e1d3b93c126201,8642812cbdea417d] - Incoming Request: ee9c4c99-75c5-4e66-8916-73d21b4737a8
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: 09e1d3b93c126201
+x-span-name: http:/house/detail
+x-b3-traceid: 09e1d3b93c126201
+x-b3-spanid: 8642812cbdea417d
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:01:01.420 [http-nio-8084-exec-9] INFO  [org.zalando.logbook.Logbook:79] [09e1d3b93c126201,8642812cbdea417d] - Outgoing Response: ee9c4c99-75c5-4e66-8916-73d21b4737a8
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:01:01 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:01:04.017 [http-nio-8084-exec-10] INFO  [org.zalando.logbook.Logbook:74] [462d1731ec776b4b,80de0e027d599a3a] - Incoming Request: d306d17e-2dfb-4111-83dc-e2782de10054
+POST http://localhost:8084/house/list HTTP/1.1
+x-b3-parentspanid: 462d1731ec776b4b
+content-length: 137
+x-span-name: http:/house/list
+x-b3-traceid: 462d1731ec776b4b
+x-b3-spanid: 80de0e027d599a3a
+x-b3-sampled: 0
+host: localhost:8084
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+
+{"limit":2,"offset":0,"query":{"bookmarked":false,"featureList":[],"floorPlanList":[],"imageList":[],"roundRating":0,"sort":"time_desc"}}
+2020-01-11 01:01:04.043 [http-nio-8084-exec-10] INFO  [org.zalando.logbook.Logbook:79] [462d1731ec776b4b,80de0e027d599a3a] - Outgoing Response: d306d17e-2dfb-4111-83dc-e2782de10054
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 1401
+Date: Fri, 10 Jan 2020 17:01:04 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"count":2,"list":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44},{"address":"mgtu","area":120,"baths":2,"beds":2,"bookmarked":false,"cityId":2,"communityId":8,"createTime":1578636000000,"featureList":["学区房"],"firstImg":"http://127.0.0.1:8087/images/1578670209/property-13.jpg","floorPlan":"/1578670209/floor-plan-02.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578670209/floor-plan-02.jpg"],"id":32,"imageList":["http://127.0.0.1:8087/images/1578670209/property-13.jpg"],"images":"/1578670209/property-13.jpg","name":"house2","price":1,"priceStr":"1万","properties":"学区房","rating":0.0,"remarks":"hhhh","roundRating":0,"sort":"time_desc","state":1,"tags":"","type":1,"userId":49}]}}
+2020-01-11 01:01:04.049 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:74] [462d1731ec776b4b,0a32cc354031dd83] - Incoming Request: 47d1d199-3e37-4549-89ae-ed1b2322986f
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: 462d1731ec776b4b
+x-span-name: http:/house/hot
+x-b3-traceid: 462d1731ec776b4b
+x-b3-spanid: 0a32cc354031dd83
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:01:04.068 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:79] [462d1731ec776b4b,0a32cc354031dd83] - Outgoing Response: 47d1d199-3e37-4549-89ae-ed1b2322986f
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:01:04 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:01:40.734 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:74] [18e48f2506d5e086,f8d44647aee640a3] - Incoming Request: 0dc0b616-b790-471e-90c8-3353a2966bf6
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: 18e48f2506d5e086
+x-span-name: http:/house/detail
+x-b3-traceid: 18e48f2506d5e086
+x-b3-spanid: f8d44647aee640a3
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:01:40.754 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:79] [18e48f2506d5e086,f8d44647aee640a3] - Outgoing Response: 0dc0b616-b790-471e-90c8-3353a2966bf6
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:01:40 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:03:16.173 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:03:49.002 [http-nio-8084-exec-6] INFO  [org.zalando.logbook.Logbook:74] [1c212c367a8a7c78,664ce2400a272fc9] - Incoming Request: 865ba52f-16d7-4abf-9f07-e99578fd7c80
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: 1c212c367a8a7c78
+x-span-name: http:/house/detail
+x-b3-traceid: 1c212c367a8a7c78
+x-b3-spanid: 664ce2400a272fc9
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:03:49.038 [http-nio-8084-exec-6] INFO  [org.zalando.logbook.Logbook:79] [1c212c367a8a7c78,664ce2400a272fc9] - Outgoing Response: 865ba52f-16d7-4abf-9f07-e99578fd7c80
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:03:49 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:03:51.040 [http-nio-8084-exec-7] INFO  [org.zalando.logbook.Logbook:74] [06e64dd487ba06ca,9b761d296244937d] - Incoming Request: f615e73e-0e87-4bd1-b54f-243db001eb63
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: 06e64dd487ba06ca
+x-span-name: http:/house/detail
+x-b3-traceid: 06e64dd487ba06ca
+x-b3-spanid: 9b761d296244937d
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:03:51.068 [http-nio-8084-exec-7] INFO  [org.zalando.logbook.Logbook:79] [06e64dd487ba06ca,9b761d296244937d] - Outgoing Response: f615e73e-0e87-4bd1-b54f-243db001eb63
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:03:51 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:03:52.253 [http-nio-8084-exec-8] INFO  [org.zalando.logbook.Logbook:74] [e4d8db03d2dc5a5f,79c62593da47809d] - Incoming Request: fa48637a-c990-4f5b-bda0-186e30f36b8c
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: e4d8db03d2dc5a5f
+x-span-name: http:/house/detail
+x-b3-traceid: e4d8db03d2dc5a5f
+x-b3-spanid: 79c62593da47809d
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:03:52.284 [http-nio-8084-exec-8] INFO  [org.zalando.logbook.Logbook:79] [e4d8db03d2dc5a5f,79c62593da47809d] - Outgoing Response: fa48637a-c990-4f5b-bda0-186e30f36b8c
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:03:52 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:05:21.177 [http-nio-8084-exec-10] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,ae325802a178b9fb] - Incoming Request: a1f20893-6ca7-4cee-9f9c-42ec1b9bccb0
+GET http://localhost:8084/house/detail?id=31 HTTP/1.1
+authorization: XXX
+x-b3-parentspanid: 3b96df355f150cc4
+x-span-name: http:/house/detail
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: ae325802a178b9fb
+x-b3-sampled: 0
+host: localhost:8084
+connection: keep-alive
+user-agent: Java/1.8.0_232
+accept: */*
+2020-01-11 01:05:21.196 [http-nio-8084-exec-10] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,ae325802a178b9fb] - Outgoing Response: a1f20893-6ca7-4cee-9f9c-42ec1b9bccb0
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 745
+Date: Fri, 10 Jan 2020 17:05:21 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}}
+2020-01-11 01:05:22.667 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:74] [3b96df355f150cc4,497f637261af0512] - Incoming Request: 1d440a86-6525-4cf2-adaf-a67a32b7ca3b
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: 3b96df355f150cc4
+x-span-name: http:/house/hot
+x-b3-traceid: 3b96df355f150cc4
+x-b3-spanid: 497f637261af0512
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:22.680 [http-nio-8084-exec-1] INFO  [org.zalando.logbook.Logbook:79] [3b96df355f150cc4,497f637261af0512] - Outgoing Response: 1d440a86-6525-4cf2-adaf-a67a32b7ca3b
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:05:22 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:05:35.583 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:74] [a75beda34cbde44f,5c6a1e7fffc0c0ad] - Incoming Request: bb738ced-9ce6-4080-8e08-f9d704b17ae2
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: a75beda34cbde44f
+x-span-name: http:/house/hot
+x-b3-traceid: a75beda34cbde44f
+x-b3-spanid: 5c6a1e7fffc0c0ad
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:35.602 [http-nio-8084-exec-3] INFO  [org.zalando.logbook.Logbook:79] [a75beda34cbde44f,5c6a1e7fffc0c0ad] - Outgoing Response: bb738ced-9ce6-4080-8e08-f9d704b17ae2
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:05:35 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:05:38.291 [http-nio-8084-exec-4] INFO  [org.zalando.logbook.Logbook:74] [3ff56c2298cfffef,5de1308b583a9fd7] - Incoming Request: 9285009e-7528-48ee-9a57-a26040eefacf
+GET http://localhost:8084/house/hot?size=3 HTTP/1.1
+x-b3-parentspanid: 3ff56c2298cfffef
+x-span-name: http:/house/hot
+x-b3-traceid: 3ff56c2298cfffef
+x-b3-spanid: 5de1308b583a9fd7
+x-b3-sampled: 0
+host: localhost:8084
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/json, application/*+json, application/*+json
+2020-01-11 01:05:38.307 [http-nio-8084-exec-4] INFO  [org.zalando.logbook.Logbook:79] [3ff56c2298cfffef,5de1308b583a9fd7] - Outgoing Response: 9285009e-7528-48ee-9a57-a26040eefacf
+HTTP/1.1 200 OK
+X-Application-Context: house:8084
+Content-Length: 747
+Date: Fri, 10 Jan 2020 17:05:38 GMT
+Content-Type: application/json;charset=UTF-8
+
+{"code":0,"msg":"OK","result":[{"address":"ggg","area":200,"baths":4,"beds":3,"bookmarked":false,"cityId":1,"communityId":1,"createTime":1578636000000,"featureList":["满两年","采光好","带阳台"],"firstImg":"http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg","floorPlan":"/1578660170/floor-plan-01.jpg","floorPlanList":["http://127.0.0.1:8087/images/1578660170/floor-plan-01.jpg"],"id":31,"imageList":["http://127.0.0.1:8087/images/1578660170/property-detail-01.jpg"],"images":"/1578660170/property-detail-01.jpg","name":"test houses","price":400,"priceStr":"400万","properties":"满两年,采光好,带阳台","rating":5.0,"remarks":"good houses","roundRating":5,"sort":"time_desc","state":1,"tags":"","type":1,"userId":44}]}
+2020-01-11 01:08:16.174 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:13:16.175 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:18:16.176 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:23:16.177 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-01-11 01:45:38.242 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:91] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 more
+2020-01-11 01:45:38.243 [DiscoveryClient-CacheRefreshExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:38.244 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2020-01-11 01:45:38.244 [DiscoveryClient-CacheRefreshExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:38.249 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:951] [,] - DiscoveryClient_HOUSE/192.168.43.197:house:8084 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1064) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:946) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1468) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1435) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:40.495 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:91] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 26 more
+2020-01-11 01:45:40.496 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:40.498 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient:83] [,] - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_232]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_232]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_232]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_232]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-01-11 01:45:40.498 [DiscoveryClient-HeartbeatExecutor-0] WARN  [com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient:129] [,] - Request execution failure
+2020-01-11 01:45:40.498 [DiscoveryClient-HeartbeatExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient:841] [,] - DiscoveryClient_HOUSE/192.168.43.197:house:8084 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:832) ~[eureka-client-1.4.12.jar:1.4.12]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1396) ~[eureka-client-1.4.12.jar:1.4.12]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_232]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+2020-01-11 01:45:44.094 [Thread-56] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] [,] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@486be205: startup date [Sat Jan 11 00:57:55 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@29526c05

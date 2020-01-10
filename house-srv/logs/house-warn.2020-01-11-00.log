@@ -1,0 +1,15 @@
+2020-01-11 00:20:38.156 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 00:20:38.272 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:20:38.277 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:25:46.058 [Thread-48] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,] - Saw local status change event StatusChangeEvent [timestamp=1578673546058, current=DOWN, previous=UP]
+2020-01-11 00:26:48.339 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 00:26:48.484 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:26:48.492 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:44:09.595 [Thread-63] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,] - Saw local status change event StatusChangeEvent [timestamp=1578674649595, current=DOWN, previous=UP]
+2020-01-11 00:45:15.168 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 00:45:15.281 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:45:15.286 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:55:02.910 [Thread-53] WARN  [com.netflix.discovery.DiscoveryClient:1294] [,] - Saw local status change event StatusChangeEvent [timestamp=1578675302910, current=DOWN, previous=UP]
+2020-01-11 00:58:13.356 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] [,] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-01-11 00:58:13.516 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-01-11 00:58:13.529 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
